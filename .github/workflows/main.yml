@@ -56,5 +56,5 @@ jobs:
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
           port: ${{ secrets.ftp_port }} # 建议更改默认的 21 端口
-          timeout: 600000
+          timeout: 1800000
       ### 没有服务器的话，请删除本区块代码，防止报错 ###
